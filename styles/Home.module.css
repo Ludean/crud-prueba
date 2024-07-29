@@ -1,0 +1,38 @@
+/* src/styles/Home.module.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #0c0c0c;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+  }
+  
+  .repeatedProducts {
+    padding: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f4f4f4;
+  }
+  
